@@ -1,0 +1,149 @@
+
+
+/* Desktop */
+@media  screen and (max-width: 1200px) {
+    
+}
+
+/* Laptop */
+@media screen and (max-width: 990px) {
+    .card_local{
+        justify-content: center;
+        align-items: center;
+    }
+    .imgLocal_cont{
+        margin-right: 0;
+        margin-bottom: 2.2rem;
+    }
+    .results_main-grid{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }.IMG_mold{
+        width: 200px;
+        height: 200px;
+    } 
+}
+@media screen and (max-width: 840px) {
+    .footer_content{
+        justify-content: center;
+        align-items: center;
+    }.footer_content h3{
+        text-align: center;
+        margin-bottom: 0.8rem;
+    }.footer_content ul{
+        margin-bottom: 2rem;
+    }
+}
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .home_section_content{
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+    }
+    .article_text-home{
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .home_section{
+        background-position: top;
+    }.imagem_home-section{
+        width: 250px;
+        height: 250px;
+    }
+    .redes_lists li{
+        margin-left: 0;
+    }.redes_lists li img{
+        width: 120px;
+    }
+    .IMG_mold{
+        width: 150px;
+        height: 150px;
+    }.nav_redes-content h1, .fotos_content h1, .local_content h1, .valores_content h1{
+        font-size: 1.8rem;
+    }
+    .square_val h3{
+        font-size: 1rem;
+    }.square_img{
+        width: 110px;
+        height: 110px;
+    }
+    .square_val{
+        width: 180px;
+        height: 340px;
+    }
+}
+
+/* Phone */
+@media screen and (max-width: 450px){
+    .article_text-home h1{
+        font-size: 4.9rem;
+        letter-spacing: 0;
+    }.article_text-home p:first-child{
+        font-size: 1.3rem;
+        margin-bottom: -1.4rem;
+    }.article_text-home p:nth-last-of-type(1){
+        font-size: 0.98rem;
+    }.article_text-home button::after{
+        font-size: 0.8rem;
+        left: -15px;
+        transform: rotate(7deg);
+        width: 70%;
+    }.article_text-home button{
+        font-size: 1.1rem;
+    }.redes_lists li img{
+        width: 90px;
+    }.redes_lists li span{
+        font-size: 1.2rem;
+    }.redes_lists li a{
+        font-size: 0.7rem;
+    }.IMG_mold{
+        width: 145px;
+        height: 145px;
+    }.imgLocal_cont{
+        width: 270px;
+        height: 270px;
+    }.title_card{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    
+    
+    .article_local button{
+        margin-top: 3rem;
+        font-size: 1rem;
+    }.nav_redes-content h1, .fotos_content h1, .local_content h1, .valores_content h1{
+        font-size: 1.6rem;
+    }
+    .fotos_content{
+        width: 90%;
+    }
+    .square_val{
+        padding: 2rem 0px;
+    }
+    .square_val h3{
+        font-size: 1rem;
+        padding: 2px;
+        width: calc(100% + 2px);
+    }.square_valContainer{
+        justify-content: center;
+    }
+    .img_credits{
+        width: 50px;
+        height: 50px;
+    }
+    .footer_content li:first-child img{
+        transform: scale(2);
+    }   
+     /* .square_img{
+        width: 100px;
+        height: 100px;
+    }
+    .square_val{
+        width: 132px;
+        height: 340px;
+    } */
+}
